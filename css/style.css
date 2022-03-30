@@ -1,42 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;1,300&display=swap');
 
-
 *{
     font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
-
 }
 
 html{
 	font-size: 62.5%;
 	}
-
-
-h1{
-	text-transform: uppercase;
-	font-weight: 900;
-	font-size: 4rem ;
-	display: inline-block;
-	position: relative;
-	font-family: dancing script;
-}
-
-
-h2{
-	color: black;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 3rem;
-}
-
-
-p{
-	line-height: 3rem;
-	font-size: 3rem;
-    padding-bottom: 5rem;
-}
-
 
 body {
 	background-attachment: fixed;
@@ -47,447 +19,267 @@ body {
 	
 }	
 
-/* -------------------------------- botonera -------------------------------- */
 
-  .encabezado{
+
+/* ---------------------------- empieza botonera ---------------------------- */
+.encabezado{
 	background-color: rgba(196, 50, 50,1);
+    
 	 
       	
-   }
-
-  .encabezado__logo{
-	  height: 100%;
-	   
-  
-  
-    }
-
-    .encabezado nav{
-	    padding-bottom: -5rem;
-	    border: solid 0.3rem black;
-		background-image: linear-gradient(150deg, #c43232 53%, #faf7c7 100%);
-        
-	
-		
-		
-    }	
-
-    .encabezado nav a{
-    	text-decoration: none;
-
-    }
+}
+.encabezado__logo{
+    width: auto;
+}
 
 
-    .encabezado nav ul{
-    	list-style: none;
-    	display: flex;
-		justify-content: center;
-		
-		
-		
-	
-	}
-
-
+.encabezado nav ul li{  
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    height: 3rem;
+    font-style: italic;
     
-
-    .encabezado nav ul li{
-
-    	list-style: none;
-    	margin-right: 8rem;
-    	margin-left: 6rem;
-    	margin-top: -5rem;
-    	height: 3rem;
-    	font-style: italic;
-		
-		
-
-    }
-
-
-     .encabezado nav ul li a{ 
-      	color: black;
-      	text-decoration: none;
-      	font-size: 3rem;	
-      }
-
-     .encabezado nav ul li a:hover{
-     	font-weight: 800;
-     	color: rgba(250, 247, 199, 1.0);
-
-	  
-		
-		 
-     }
-
-     /* ---------------------------- termina botonera ---------------------------- */
-
-
+    
+    
       
 
-     
-     
+}
 
-     /* ------------------------------- index html ------------------------------- */
-     
-	 .portada__img{
-        width: 100%;
-        
-        
-     }
+.encabezado nav ul li a{ 
+    color: black;
+    font-size: 3rem;
+    text-align: center;	
+}
+
+.encabezado nav ul li a:hover{
+    font-weight: 1000;
+    color: rgba(250, 247, 199, 1.0)
+    
+}
+
+
+/* ---------------------------- termina botonera ---------------------------- */
+
+p{
+	line-height: 3rem;
+	font-size: 3rem;
+    padding-bottom: 5rem;
+}
+
+
+/* --------------------------------- footer --------------------------------- */
+.pie{
+    
+    padding: 7rem auto;
+    margin-top: 10rem;
+    background-color: rgba(196, 50, 50,1);
+    text-align: center;
+    margin-top: 10rem;
    
-     .portada__articulo{
-     	width: 100%;
-     	height: auto;    	
-     	background-color: rgba(196, 50, 50,1);
-     	text-align: center;
-	    margin-top: -1rem;
-	    border-bottom: solid 0.3rem black ;
-		
-		
-     }
+   
 
-     .portada__titulo{
-     	font-size: 5rem;
-     	color:rgba(250, 247, 199, 1.0); 
-     	font-style: italic;
-     	padding-top: 2rem;
-     	margin-bottom: 3rem;
-	    
-     }
-
-     .portada__text{
-     	font-size: 3rem;
-
-     }
-     
-	 .portada__publicidadcontainer{
-		text-align: center;
-	 }
-	 .portada__publicidad{
-		width: 80%;
-		height: 130rem;
-		max-width: 100rem;
-		border: solid 0.3rem black;
-		
-	 }
+}
 
 
-     /* --------------------------------- footer --------------------------------- */
 
-     .pie{
-     	border: solid 0.3rem black;
-     	padding: 7rem auto ;
-     	margin-top: 10rem;
-     	background-color: rgba(196, 50, 50,1);
-     	text-align: center;
-		margin-top: 10rem;
-		
-		
+.pie__titulo{
+    font-size: 3rem;
+    color:rgba(250, 247, 199, 1.0);
+    padding-top: 3rem;
+    font-weight: 1000; 
+   
+
+
+}
+
+.pie__text{
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2	rem auto;
+    margin: 1rem auto;
+}
+
+.pie__icon{ 
+   width: 5rem;
+   margin-top: 3rem;
+   margin-right: 1rem;
+   margin-left: 1rem;
+  
+
+}
+/* ----------------------------- termina footer ----------------------------- */
+
+/* ---------------------------------- index --------------------------------- */
+.portada{
+    width: 100%;
+    height: auto;    	
+    background-color: rgba(196, 50, 50,1);
+    text-align: center;
+	margin-top: -1rem;
 	
-     }
-	 
-	 .pie__container{
-		 display: flex;
-		 justify-content: space-around;
-		 
+}
 
-		 
-	 }
+.portada__titulo{
+    font-size: 5rem;
+    color:rgba(250, 247, 199, 1.0); 
+    font-style: italic;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: dancing-script;
+    
+   
+}
 
-     .pie__titulo{
+/* ------------------------------ termina index ----------------------------- */
 
-     	text-transform: uppercase;
-     	font-size: 3rem;
-     	color:rgba(250, 247, 199, 1.0);
-     	padding-top: 3rem; 
-		
-
-
-     }
-
-     .pie__text{
-
-     	text-transform: uppercase;
-     	text-align: center;
-     	font-size: 2rem;
-     	padding: 2	rem auto;
-     	margin: 1rem auto;
-     }
-
-     .pie__icon{ 
-        width: 5rem;
-		margin-top: 3rem;
-		margin-right: 1rem;
-		margin-left: 1rem;
-       
-
-     }
-
-     
-
-/* ------------------------------- pizzas html ------------------------------ */
-
+/* ----------------------------- empieza pizzas ----------------------------- */
 .mainpizza{  	
-     	background-color: rgba(196, 50, 50, 1.0);
-     	text-align: center;
-     	margin-top: 8rem;
-     	border: solid 0.3rem black;
-		margin-right: 10rem;
-		margin-left: 10rem;
-}
-
-.mainpizza__titulo{
-	    font-size: 5rem;
-     	color:rgba(250, 247, 199, 1.0); 
-     	padding-top: 2rem;
-     	margin-bottom: 3rem;
+    background-color: rgba(196, 50, 50, 1.0);
+    text-align: center;
+    margin-top: 8rem;
+    border: solid 0.3rem black;
+    margin-right: 8rem;
+    margin-left: 8rem;
 }
 
 
+/* ----------------------------- termina pizzas ----------------------------- */
 
-
-/* ------------------------------ nosotros html ----------------------------- */
-.mainnosotros{    	   	
-     	background-color: rgba(196, 50, 50, 1.0);
-        text-align: center;
-        margin-top: 8rem;
-        border: solid 0.3rem black;
-       
-     	    	
+/* ---------------------------- empieza nosotros ---------------------------- */
+.mainnosotros{
+    width: 100%;
+    height: auto;    	
+    background-color: rgba(196, 50, 50,1);
+    text-align: center;
+    margin-top: 10rem;
+    padding-bottom: 5rem;
+    
 }
 
 .mainnosotros__titulo{
-	    font-size: 5rem;
-     	color:rgba(250, 247, 199, 1.0); 
-     	padding-top: 2rem;
-     	margin-bottom: 3rem;
-     	
-
+    font-size: 5rem;
+    color:rgba(250, 247, 199, 1.0); 
+    font-style: italic;
+    padding-top: 2rem;
+    margin-bottom: 10rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: dancing-script;
+    text-align: center;
+    
 
 }
-.mainnosotros__img{
-	width: 100%;
-}
+
 .mainnosotros__text{
-	    font-size: 3rem;
-	    margin-top: 2rem;
-	    text-align: left;
+    font-size: 3rem;
+    text-align: left;
+    
 }
 
-
-
-/* ----------------------------- sucursales html ---------------------------- */
+/* --------------------------- empiezas sucursales -------------------------- */
 .mainsucursales{
-	    background-color: rgba(196, 50, 50, 1.0);
-	    text-align: center;
-     	margin-top: 8rem;
-     	border: solid 0.3rem black;
-		padding-bottom: 3rem;
-		margin-right: 10rem;
-		margin-left: 10rem;
-		
+    width: 100%;
+    background-color: rgba(196, 50, 50, 1.0);
+    text-align: center;
+    margin-top: 10rem;
+    border: solid 0.3rem black;
+    padding-bottom: 3rem;
+   
+    
 
 }
 
 .mainsucursales__titulo{
-		font-size: 5rem;
-     	color:rgba(250, 247, 199, 1.0); 
-     	padding-top: 2rem;
-     	margin-bottom: 3rem;
+    font-size: 5rem;
+    color:rgba(250, 247, 199, 1.0); 
+    font-style: italic;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: dancing-script;
+    text-align: center;
 }
 
 .mainsucursales__titulosiframes{
-	color:rgba(250, 247, 199, 1.0);
-	
-	
+color:rgba(250, 247, 199, 1.0);
+
+
 }
 
 .mainsucursales__iframes{
-	    display: flex;
-		flex-direction: row;		
-		justify-content: space-around;
-		
+    display: flex;
+    flex-direction: row;		
+    justify-content: space-around;
+    
 }
 
 
 
+/* --------------------------- termina sucursales --------------------------- */
 
-
-
-/* ------------------------------ contacto html ----------------------------- */
+/* ---------------------------- empieza contacto ---------------------------- */
 .maincontacto{
-	    
-	    text-align: center;
-     	margin-top: 8rem;
-		padding-bottom: 2.5rem;
-		margin-right: 10rem;
-		margin-left: 10rem;	
+    width: 100%;
+    height: auto;    	
+    background-color: rgba(196, 50, 50,1);
+    text-align: center;
+    margin-top: 10rem;  
+	
 }
 
 
-/* ------------------------------- formulario ------------------------------- */
+
+.maincontacto__titulo{
+    font-size: 5rem;
+    color:rgba(250, 247, 199, 1.0); 
+    font-style: italic;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: dancing-script;
+   
+}
 
 .form{
-	width: 40rem;
+    width: 50%;
 	padding: 3rem;
 	margin: auto;
-	display: flex;
-	box-shadow: 0.7rem 1.3rem 3.7rem #000;
-	background-color: #c43232;
-    background-image: linear-gradient(150deg, #c43232 53%, #faf7c7 100%);
-	border-radius: 2rem;
-	
-	
-	
+	background-color: #c43232; 
+    text-align: center;
+    margin-bottom: 3rem;
+    border: solid rgba(250, 247, 199, 1.0) 0.2rem;
+    border-radius: 1rem;
+		
 }
 
 .form__titulos{
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	color: rgba(250, 247, 199, 1.0);
 	font-family: roboto;
 }
 
 .form__boxtext{
-	width: 95%;
-	padding: auto;
-	margin-bottom: 1rem;
-	
+    text-align: center;
+}
+.form__button{
+    background-color: rgba(250, 247, 199, 1.0);
+    font-size: 1.5rem;
+    border: 2px solid rgba(250, 247, 199, 1.0);
+    border-radius: 1rem;
+    font-family: roboto;
+    padding: 0.5rem 1rem;
+    transition-duration: 0.4s
 }
 
-
-.form__boton--yellow{
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	width: 80%;
-	background-color: rgba(250, 247, 199, 1.0);
-	font-size: 1.6rem;
-	font-family: roboto;
-	border-radius: 2rem;
-	
+.form__button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
-/* --------------------------- termina formulario --------------------------- */
-
-
-/* ---------------------------------- grid index ---------------------------------- */
-.indexgridcontainer{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: auto auto auto;
-	grid-gap: 2rem;
-	grid-template-areas:
-	 "header header header"
-	 "main main main"
-	 "footer footer footer";
-}
-
-
-
-header{
-	 grid-area: header;
-}
-
-main{
-    grid-area: main;
-}
-
-footer{
-	grid-area: footer;
-}
-
-nav{
-	grid-area: nav;
-}
-
-aside{
-	grid-area: publicidad;
-}
-
-
-/* --------------------------- termina grid index --------------------------- */
-
-
-/* ---------------------------- grid sucursales ---------------------------- */
-.sucursalesgridcontainer{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: auto auto auto;
-	grid-gap: 2rem;
-	grid-template-areas:
-	 "header header header"
-	 "main main main"
-	 "footer footer footer";
-
-}
-
-/* ------------------------- termina grid sucursales ------------------------ */
-
-
-
-@media all and (max-width:768px){
-
-.encabezado nav ul{	
-	flex-direction: column-reverse;
-	justify-content: right;
-	text-align: right;
-			
-
-}
-
-.pie__container{
-	flex-wrap: wrap;
-	flex-direction: column;
-}
-
-/* ------------------------- index media queries ------------------------ */
-
- .indexgridcontainer{
-	grid-template-columns: 1fr;
-	grid-template-rows: 0.5fr 1fr 0,5fr;
-	grid-template-areas: 
-	"header"
-	"main"
-	"footer";
-	
-	
-}
-
-
-
-.portada__publicidadcontainer{
-   display: none;
-}
-
-/* ------------------------- sucursales media queries ------------------------ */
-.sucursalesgridcontainer{
-	grid-template-columns: 1fr;
-	grid-template-rows: 0.5fr 1fr 0,5fr;
-	grid-template-areas: 
-	"header "
-	"main"
-	"footer";
-}
-
-.mainsucursales__iframes{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	
-	
-}
-
-
-
-}
-
-
- 
-		 
-
-		
-		 
-	 
-
- 
+/* ---------------------------- Termina contacto ---------------------------- */

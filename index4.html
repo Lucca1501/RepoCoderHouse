@@ -1,102 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>El Talento Pizza</title>
-	<link rel="stylesheet" href="./css/style.css">
-	<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ----------------------------- animate css ----------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    <!-- ------------------------------ bootstrap ------------------------------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Pizzeria El Talento</title>
+  </head>
+  <body>
+      
+      <header class="encabezado border border-dark border-2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand encabezado__logo" href="index4.html"><img src="./img/logo.svg" alt="logo de el Talento" width="300rem"></a>
+              <button class="navbar-toggler btn btn-warning  btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">o</span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
 
-<body>
-	<div class="indexgridcontainer">
-		<header class="encabezado">
-
-			<nav>
-				<a href="./index4.html"><img src="./img/logo.svg" alt="logo de el Talento" class="encabezado__logo"></a>
-		
-				 <ul>
-					<li><a href="./views/pizzas.html">Pizzas</a></li>
-					<li><a href="./views/nosotros.html">Nosotros</a></li>
-					<li><a href="./views/sucursales.html">Sucursales</a></li>
-					<li><a href="./views/contacto.html">Contacto</a></li>
-				</ul>
-			</nav>
-
-	
-			
-	</header>
-
-   
-
-	<main class="portada animate__animated animate__fadeIn">
-
-		<div>
-			<img src="img/pizza.jpg" alt="Foto de pizza" class="portada__img">	
-		</div>
-		
-		  <section>
-                   
-		  	       <article class="portada__articulo">
-
-		  	       <h1 class="portada__titulo">Calidad premium</h1> 
-		            		
-		             <p class="portada__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vel, ab libero, debitis aliquid reiciendis, perferendis quasi tempore nisi sed porro, harum non corporis. Nulla iste fuga, ducimus mollitia explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, dignissimos distinctio minus ad facere molestias, error repellat blanditiis ea ab maiores dolorum, vitae placeat molestiae voluptatibus ipsa sequi ut praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora neque nam accusantium delectus aperiam atque, omnis recusandae dolores veritatis beatae modi id, expedita aspernatur, eum enim consequatur, labore perspiciatis? Eaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, dicta. Voluptate ab facere dignissimos nulla eaque natus obcaecati sequi maiores quasi quidem tempora, aut velit iure ipsa nisi, debitis illum.</p>
-		            
-
-		           </article>
-				  
-		  </section>
-		
-
-    </main>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="./views/pizzas.html">Pizzas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./views/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./views/sucursales.html">Sucursales</a>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./views/contacto.html">Contacto</a>
+                    
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
 
 
-	<footer class="pie">
-		<div class="pie__container">
+      <main class="portada animate__animated animate__fadeIn  border border-dark border-2">
+        <img src="./img/pizza.jpg" class="img-fluid" alt="imagen de pizza">
+          <section>
+            <h1 class="portada__titulo">Calidad Premium</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit odio repellat iste impedit id praesentium veritatis deleniti, repellendus culpa esse, saepe quidem deserunt ipsum ex! Tempore alias porro in quisquam?
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, rerum eveniet aliquid porro hic blanditiis beatae in, odit obcaecati illo dolorem quisquam? Et magni culpa totam maxime, eius ab molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, voluptate molestiae. Libero neque ullam aut ea eligendi repellat incidunt, consequuntur cupiditate veniam pariatur dolorem ratione vitae consectetur voluptatibus ab sed.
+            </p>
 
-        <div>
-		<h3 class="pie__titulo">HORARIOS</h3>
-		
-		  <p class="pie__text"> <b> Lunes a Domingo</b> <br>
-		   De 10:00 a 13:30 <br> y de 20:00 a 00:00 hs</p>
+          </section> 
+      </main>
+
+      
+
+
+
+
+    
+      <footer class="pie border border-dark border-2">
+        <div class="d-flex justify-content-around">
+            <div>
+                <h3 class="pie__titulo">HORARIOS</h3>
+                
+                <p class="pie__text"> <b> Lunes a Domingo</b> <br>
+                   De 10:00 a 13:30 <br> y de 20:00 a 00:00 hs</p>
+            </div>
+
+            <div>
+                <h3 class="pie__titulo">CONTÁCTANOS</h3> 
+                   <p class="pie__text"> Resistencia 444 42 89 <br>
+                                         Quitilipi 444 54 32   <br>   
+                                         Villa Ángela 444 87 86</p>
+            </div>
+        
+            <div>
+                <h3 class="pie__titulo">REDES</h3>
+                
+                    <a href="https://www.facebook.com" target="blank"><img src="img/facebook.png"  alt="Facebook" class="pie__icon"></a>
+        
+                    <a href="https://www.twitter.com" target="blank"><img src="img/twitter.png" alt="Twitter" class="pie__icon"></a>
+        
+                    <a href="https://www.instagram.com" target="blank"><img src="img/instagram.jpg" alt="Instagram" class="pie__icon"></a>
+                
+             </div>
         </div>
-		
-		
 
-		
-		<div>
-		<h3 class="pie__titulo">CONTÁCTANOS</h3> 
-		
-		
+        
+      </footer>
 
-		   <p class="pie__text"> Resistencia 444 42 89 <br>
-		                         Quitilipi 444 54 32   <br>   
-		                         Villa Ángela 444 87 86</p>
-		</div>
-
-		
-		
-
-        <div>
-		<h3 class="pie__titulo">REDES</h3>
-		
-		    <a href="https://www.facebook.com" target="blank"><img src="img/facebook.png"  alt="Facebook" class="pie__icon"></a>
-
-		    <a href="https://www.twitter.com" target="blank"><img src="img/twitter.png" alt="Twitter" class="pie__icon"></a>
-
-		    <a href="https://www.instagram.com" target="blank"><img src="img/instagram.jpg" alt="Instagram" class="pie__icon"></a>
-		
-		</div>
-	</div>
-	</footer>
-
-    </div>	
-
-	
-
-</body>
-
-</html>	
+    
+  </body>
+</html>
