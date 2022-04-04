@@ -219,6 +219,17 @@ color:rgba(250, 247, 199, 1.0);
     
 }
 
+@media all and (max-width:768px){
+    
+    .mainsucursales__iframes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}    
+
+
 
 
 /* --------------------------- termina sucursales --------------------------- */
@@ -283,3 +294,13 @@ color:rgba(250, 247, 199, 1.0);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 /* ---------------------------- Termina contacto ---------------------------- */
+
+@media all and (max-width:768px){
+    
+    .pie__container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}    
