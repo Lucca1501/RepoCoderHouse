@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 62.5%;
+	}
+
+body {
+	background-attachment: fixed;
+	background-color: rgba(250,247,199,1);
+    opacity: 1;
+    background-image: linear-gradient(to right, rgba(196,50,50,1), rgba(196,50,50,1) 20px, rgba(250,247,199,1) 20px, rgba(250,247,199,1) );
+    background-size: 40px 100%;
+	
+}	
+
+p{
+	line-height: 3rem;
+	font-size: 3rem;
+    padding-bottom: 5rem;
+}

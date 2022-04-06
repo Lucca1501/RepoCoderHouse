@@ -1,0 +1,26 @@
+.encabezado {
+    background-color: rgba(196, 50, 50,1);
+    .encabezado__logo{
+                width: auto;
+    }
+    nav{
+        ul{
+            li{
+                margin-right: 10rem;
+                margin-left: 10rem;
+                margin-top: 10rem;
+                height: 3rem;
+                font-style: italic;
+                a{
+                    color: black;
+                    font-size: 3rem;
+                    text-align: center;
+                    &:hover{
+                        font-weight: 1000;
+                        color: #faf7c7;}
+                    }  
+                } 
+            }
+        }
+    }
+

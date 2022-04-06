@@ -1,0 +1,29 @@
+.pie{
+    padding: 7rem auto;
+    margin-top: 10rem;
+    background-color: rgba(196, 50, 50,1);
+    text-align: center;
+    margin-top: 10rem;
+    .pie__titulo{
+        font-size: 3rem;
+        color:rgba(250, 247, 199, 1.0);
+        padding-top: 3rem;
+        font-weight: 1000; 
+
+    }
+    .pie__text{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2rem;
+        padding: 2rem auto;
+        margin: 1rem auto;
+
+    }
+    .pie__icon{
+        width: 5rem;
+        margin-top: 3rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+}

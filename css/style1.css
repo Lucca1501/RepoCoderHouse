@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;1,300&display=swap");
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-attachment: fixed;
+  background-color: #faf7c7;
+  opacity: 1;
+  background-image: linear-gradient(to right, #c43232, #c43232 20px, #faf7c7 20px, #faf7c7);
+  background-size: 40px 100%; }
+
+p {
+  line-height: 3rem;
+  font-size: 3rem;
+  padding-bottom: 5rem; }
+
+.encabezado {
+  background-color: #c43232; }
+  .encabezado .encabezado__logo {
+    width: auto; }
+  .encabezado nav ul li {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    height: 3rem;
+    font-style: italic; }
+    .encabezado nav ul li a {
+      color: black;
+      font-size: 3rem;
+      text-align: center; }
+      .encabezado nav ul li a:hover {
+        font-weight: 1000;
+        color: #faf7c7; }
+
+.portada {
+  width: 100%;
+  height: auto;
+  background-color: #c43232;
+  text-align: center;
+  margin-top: -1rem; }
+  .portada .portada__titulo {
+    font-size: 5rem;
+    color: #faf7c7;
+    font-style: italic;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: dancing-script; }
+
+.pie {
+  padding: 7rem auto;
+  margin-top: 10rem;
+  background-color: #c43232;
+  text-align: center;
+  margin-top: 10rem; }
+  .pie .pie__titulo {
+    font-size: 3rem;
+    color: #faf7c7;
+    padding-top: 3rem;
+    font-weight: 1000; }
+  .pie .pie__text {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem auto;
+    margin: 1rem auto; }
+  .pie .pie__icon {
+    width: 5rem;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem; }
+
+@media all and (max-width: 768px) {
+  .pie__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; } }

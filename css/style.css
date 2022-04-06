@@ -19,6 +19,12 @@ body {
 	
 }	
 
+p{
+	line-height: 3rem;
+	font-size: 3rem;
+    padding-bottom: 5rem;
+}
+
 
 
 /* ---------------------------- empieza botonera ---------------------------- */
@@ -61,11 +67,7 @@ body {
 
 /* ---------------------------- termina botonera ---------------------------- */
 
-p{
-	line-height: 3rem;
-	font-size: 3rem;
-    padding-bottom: 5rem;
-}
+
 
 
 /* --------------------------------- footer --------------------------------- */
@@ -110,6 +112,16 @@ p{
   
 
 }
+
+@media all and (max-width:768px){
+    
+    .pie__container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}    
 /* ----------------------------- termina footer ----------------------------- */
 
 /* ---------------------------------- index --------------------------------- */
@@ -295,12 +307,3 @@ color:rgba(250, 247, 199, 1.0);
 }
 /* ---------------------------- Termina contacto ---------------------------- */
 
-@media all and (max-width:768px){
-    
-    .pie__container{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-}    
